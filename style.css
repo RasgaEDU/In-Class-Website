@@ -50,10 +50,17 @@ h2{
 }
 
 .city-wrapper {
-    padding:40px;
-    padding-left: 120px;
     margin-bottom: 50px;
-    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
 }
 
+.city-img {
+    width: 40%;
+}
+
+.city-text {
+    width: 60%;
+}
 
